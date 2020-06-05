@@ -1,0 +1,16 @@
+sprig:
+    profiles:
+        active: 
+            - dev
+        
+--- 
+spring:
+    profiles: dev
+    application:
+        name: microservicecloud-config-lrh-dev
+--- 
+spring:
+    profiles: test
+    application:
+        name: microservicecloud-config-lrh-test
+        
