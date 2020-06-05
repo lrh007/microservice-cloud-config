@@ -5,12 +5,12 @@ sprig:
         
 --- 
 spring:
-    profiles: dev
+    profiles: dev  #开发环境配置
     application:
         name: microservicecloud-config-lrh-dev
 --- 
 spring:
-    profiles: test
+    profiles: test #测试环境配置
     application:
         name: microservicecloud-config-lrh-test
         
